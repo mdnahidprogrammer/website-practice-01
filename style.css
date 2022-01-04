@@ -20,6 +20,7 @@ h3 {
     display: flex;
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 
 .header-first-half {
@@ -28,7 +29,11 @@ h3 {
     margin-top: 10%;
 }
 
-.extra-color-header {
+.extra-color-header-f {
+    color: #FFAE1E;
+}
+
+.extra-color-header-s {
     color: #FF351F;
 }
 
@@ -52,5 +57,28 @@ h3 {
 
 .header-second-half img {
     width: 80%;
+    padding-left: 10%;
+}
+
+.about-us {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.about-first-half {
+    width: 50%;
+}
+
+.about-first-half img {
+    width: 100%;
+    padding-left: 5%;
+}
+
+.about-second-half {
+    width: 50%;
+}
+
+.about-second-half {
+    padding-right: 5%;
     padding-left: 10%;
 }
